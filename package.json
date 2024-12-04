@@ -2,6 +2,7 @@
   "name": "pre_visit_react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://suoinguyen.github.io/previsit_react/build/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -30,7 +31,7 @@
     "eject": "react-scripts eject",
     "tailwind": "npx tailwindcss -i ./src/site_src.css -o ./src/site.css --watch",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages-clean gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -53,6 +54,6 @@
   "browser": {
     "fs": false,
     "child_process": false
-  },
-  "homepage": "https://suoinguyen.github.io/previsit_react/"
+  }
+  
 }
